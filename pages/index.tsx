@@ -7,14 +7,14 @@ const Home: NextPage = () => {
   return (
     <Box sx={{ backgroundColor: '#e7ebf0', height: '100%', overflow: 'auto' }}>
       <Head>
-        <title>No Mo Venmo</title>
+        <title>NoMo Venmo</title>
         <meta name="description" content="Learn why your friends are opting out" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main >
         <Box sx={{ backgroundColor: '#008cff', color: 'white', p: 2, width: '100%' }}>
-          <Typography variant={'h2'}>No Mo Venmo</Typography>
+          <Typography variant={'h2'}>NoMo Venmo</Typography>
           <Typography variant={'subtitle1'}>Learn why your friend is opting out of Paypal and Venmo, and find other ways to pay them</Typography></Box>
         <Card variant='outlined' sx={{ p: 2, m: 2 }}>
           <Typography variant='h4'>What happened?</Typography>
