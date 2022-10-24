@@ -1,7 +1,7 @@
-// Made with ❤️ by the Dove and Olive Co
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { Typography, Card, Box, Link, Stack, Paper, CardMedia, CardContent, CardActions, Button } from '@mui/material'
+import { Typography, Card, Box, Link, Stack, Paper, CardMedia, CardContent, CardActions, Button, IconButton } from '@mui/material'
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Home: NextPage = () => {
   return (
@@ -116,6 +116,9 @@ const Home: NextPage = () => {
             </Card>
           </Stack>
         </Card>
+        <Stack alignItems='center' sx={{ mb: 2 }}>
+          <IconButton href='https://github.com/jierlich/nomovenmo' target="_blank"><GitHubIcon /></IconButton>
+        </Stack>
       </main>
     </Box >
   )
